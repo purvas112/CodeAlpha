@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zilla Slab", serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.age-calculator {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: #49c628;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+.controls button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #c32bac;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.birthdate {
+  font-size: 22px;
+}
+
+.age {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.wishing {
+  font-size: 40px;
+  color: #da0c81;
+  font-weight: bold;
+  margin-top: 40px;
+}
